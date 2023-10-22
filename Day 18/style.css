@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100vh;
+    width: 100vw;
+}
+div{
+    width: 225px; height: 400px;
+  background-image: url(https://estelle.github.io/10/files/sprite.png);
+  animation: dance 4s steps(23,start) infinite,
+    movearound 12s steps(69,end) infinite alternate 44ms;
+  animation-direction: normal, alternate;
+}
+@keyframes dance {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -5175px 0;
+    }
+}
+@keyframes movearound {
+    0%{
+        transform: translateX(0);
+
+    }
+    100%{
+        transform: translateX(600px);
+    }
+}
