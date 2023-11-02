@@ -11,9 +11,6 @@ body{
     background: #000;
     transform-style: preserve-3d;
 }
-.container{
-
-}
 .box{
     position: relative;
     width: 200px;
@@ -33,7 +30,7 @@ body{
     transform: rotateY(calc(var(--i)*45deg)) translateZ(300px);
     -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
 }
- .box span img,video {
+ .box spanvideo {
     position: absolute;
     top: 0;
     left: 0;
