@@ -8,7 +8,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(to right , #9c27b0 , #8ecdff);
+    background: linear-gradient(to right , #87CEEB , #87CEEB , #1B03A3);
 }
 nav{
     width: 80%;
@@ -25,9 +25,14 @@ nav{
     width: 150px;
 }
 .nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    
 }
 .nav-links ul li a{
     color: #fff;
@@ -38,7 +43,7 @@ nav{
     height: 1000px;
     position: absolute;
     top: 50%;
-    left: 0;
+    left: -10%;
     transform: translateY(-50%);
 }
 #circle{
@@ -77,17 +82,18 @@ nav{
 .three{
     bottom: 450px;
     left: 50px;
-    transform: rotate(-270deg);
+    transform: rotate(-180deg);
 }
 .four{
     bottom: 150px;
     right: 350px;
+    transform: rotate(-270deg);
 }
 .mobile{
-    width: 200px;
+    width: 300px;
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 30%;
     transform: translateY(-50%);
     z-index: 1;
 }
@@ -110,4 +116,15 @@ nav{
     width: 15px;
     cursor: pointer;
     transform: rotate(180deg);
+}
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-left: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
