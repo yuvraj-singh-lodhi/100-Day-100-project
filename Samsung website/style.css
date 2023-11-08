@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding:0;
+     box-sizing: border-box;
+     font-family: 'Samsung Sharp Sans';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+ height: 100vh;
+ width: 100%;
+ background-color: rgb(145, 143, 143);
+ position: relative;
+ overflow: hidden;
+ padding: px;
+}
+#main #nav{
+    position: absolute;
+   height:90px;
+   width: 100vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 80px 100px;
+   z-index: 2;
+}
+#main #nav img{
+    height: 40px;
+    width: 180px;
+    align-items:center ;
+
+}
+#main #nav h1{
+    font-size: 18px;
+}
+#main #nav h1:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+#main #nav i:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+#main #nav i{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#main #left{
+    position: relative;
+    top: -10%;
+    left: -22%;
+    height: 130%;
+    width: 65%;
+    background-color:#F4C8AD;
+    border-radius:0% 50% 50% 0%;
+    overflow: hidden;  
+}
+#left img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    top: 35%;
+    left: 69%;
+    height: 300px;
+    width: 320px;
+    align-items: center;
+    filter:drop-shadow(10px 10px 20px black);
+    
+}
+
+#main #center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: relative;
+}
+#main #center h1{
+    font-size: 100px;
+  position: absolute;
+  z-index: 99;
+
+ }
+
+#main #center img{
+    position: absolute;
+    top: 50%;
+    left: 41.60%;
+    height: 300px;
+    width: 320px;
+    z-index: 5;
+}
+#main #center img:hover{
+    scale: 1.04 ;
+    transition: all ease-in-out 0.8s;
+
+}
+#main #left img:hover{
+    scale: 1.04 ;
+    transition: all ease-in-out 0.8s;
+
+}
+#main #right img:hover{
+    scale: 1.04 ;
+    transition: all ease-in-out 0.8s;
+
+}
+#main #right{
+    position: absolute;
+    top: -10%;
+    right: -22%;
+    height: 130%;
+    width: 65%;
+    background-color:#45413e;
+    border-radius: 50% 0% 0% 50%;
+    overflow: hidden;
+  
+  
+}
+#right img{
+    position: absolute;
+    top: 34.50%;
+    right: 53.50%;
+    height: 330px;
+    width: 600px;
+
+}
+
+
+
+
