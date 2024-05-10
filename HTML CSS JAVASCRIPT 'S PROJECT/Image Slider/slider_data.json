@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?auto=format&fit=crop&q=80&w=1035&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Taj Mahal",
+    "description": "A UNESCO World Heritage site in India, known for its stunning architecture and historical significance. The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1631 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Mahal.",
+    "location": "Agra, India",
+    "builtYear": "1631–1648",
+    "style": "Mughal architecture",
+    "features": ["White marble dome", "Minarets", "Gardens"]
+  },
+  {
+    "id": 2,
+    "imgUrl": "https://images.unsplash.com/photo-1616606484004-5ef3cc46e39d?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Hampi Monuments",
+    "description": "An ancient temple complex in South India with intricate stone carvings and rich cultural heritage. The group of monuments at Hampi, a UNESCO World Heritage Site, are a testament to the rich history and architectural brilliance of the Vijayanagara Empire. Hampi is known for its stunning Dravidian-style temples, royal enclosures, and vibrant market streets.",
+    "location": "Hampi, Karnataka, India",
+    "builtYear": "14th-16th century",
+    "style": "Vijayanagara architecture",
+    "features": ["Virupaksha Temple", "Vittala Temple", "Elephant Stables"]
+  },
+  {
+    "id": 3,
+    "imgUrl": "https://images.unsplash.com/photo-1619878796654-cf20e84bd749?auto=format&fit=crop&q=80&w=774&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Mount Kailash",
+    "description": "A sacred pilgrimage site and one of the seven wonders of India, offering breathtaking views and spiritual significance. Mount Kailash is a peak in the Kailash Range, which forms part of the Transhimalaya in Tibet. It is considered a sacred place in four religions: Hinduism, Buddhism, Jainism, and Bon.",
+    "location": "Tibet Autonomous Region, China",
+    "elevation": "6,638 m (21,778 ft)",
+    "prominence": "1,314 m (4,311 ft)",
+    "features": ["Sacred peak", "Pilgrimage destination"]
+  },
+  {
+    "id": 4,
+    "imgUrl": "https://images.unsplash.com/photo-1649073868642-bcbbd06239d8?auto=format&fit=crop&q=80&w=1926&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Amber Fort",
+    "description": "A historic fort in Rajasthan, India, known for its majestic architecture and royal heritage. Amber Fort, also known as Amer Fort, is located in Amer, a town with an area of 4 square kilometers, located 11 kilometers from Jaipur, the capital of Rajasthan. Constructed of red sandstone and marble, the fort is a blend of Hindu and Mughal architecture.",
+    "location": "Amer, Jaipur, Rajasthan, India",
+    "builtYear": "1592",
+    "style": "Rajput-Mughal architecture",
+    "features": ["Sheesh Mahal", "Diwan-i-Khas", "Ganesh Pol"]
+  },
+  {
+    "id": 5,
+    "imgUrl": "https://images.unsplash.com/photo-1601815264039-67c8ba1a7f98?auto=format&fit=crop&q=80&w=927&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Konark Sun Temple",
+    "description": "A UNESCO World Heritage site in Odisha, India, showcasing the intricately carved Sun Temple. Konark Sun Temple, also known as the Black Pagoda, is a 13th-century Hindu temple dedicated to the sun god Surya. The temple is designed in the shape of a colossal chariot with twelve pairs of elaborately carved stone wheels.",
+    "location": "Konark, Odisha, India",
+    "builtYear": "13th century",
+    "style": "Kalinga architecture",
+    "features": ["Sun Temple", "Natyamandir", "Dancing Hall"]
+  },
+  {
+    "id": 6,
+    "imgUrl": "https://images.unsplash.com/photo-1659126574791-13313aa424bd?auto=format&fit=crop&q=80&w=1032&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Mysore Palace",
+    "description": "A magnificent palace in Mysore, Karnataka, known for its grandeur and Indo-Saracenic architecture. Mysore Palace, also known as the Amba Vilas Palace, is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore. The palace is renowned for its exquisite interiors, stunning architecture, and vibrant Dasara celebrations.",
+    "location": "Mysore, Karnataka, India",
+    "builtYear": "1912",
+    "style": "Indo-Saracenic Revival architecture",
+    "features": ["Durbar Hall", "Kalyana Mantapa", "Golden Throne"]
+  }
+]
